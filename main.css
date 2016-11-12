@@ -1,0 +1,39 @@
+body {
+  background-image: url("http://i.imgur.com/Uh6g0cf.png");
+  background-position: right top;
+    background-attachment: fixed;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+}
+
+h1 {
+  color: white;
+  text-align: center;
+
+}
+.whoopsies {
+  position: absolute;
+  /*display: flex;
+  align-items: center;*/
+  right: auto;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  border-style: none;
+  background-color: red;
+  color: white;
+  font-size: 28px;
+  border-color: #00CCBE;
+  border-style: solid;
+  border-width: 10px;
+  outline-style: none;
+
+}
+
+.whoopsies:active {
+  background-color: blue;
+  border-color: pink;
+  outline-style: none;
+
+}
